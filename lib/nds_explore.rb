@@ -10,8 +10,8 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  movies_row = pp directors_database[0][:movies].length
-    # while row_index < movies_row.length do
-    #   pp movies_row
-    # end
+  movies_row = pp directors_database[0][:movies]
+    while row_index < movies_row.length do
+      pp movies_row
+    end
 end
