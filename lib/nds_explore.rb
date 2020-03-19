@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   element_numb = 0
-  movies = pp directors_database[0][:movies]
+  movies = directors_database[0][:movies]
     while element_numb < movies.count do
       puts movies[element_numb]
 end
