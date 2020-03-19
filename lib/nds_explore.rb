@@ -14,4 +14,5 @@ def print_first_directors_movie_titles
     while row_index < movies_row.length do
       pp movies_row
     end
+    row_index += 1
 end
